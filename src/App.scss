@@ -1,0 +1,31 @@
+@import 'variablesSCSS/variables';
+$app-border-radius: 40px;
+.overlay{
+  background: darken(#ffde22, 10%);
+  box-sizing: border-box;
+  padding: 5% 5%;
+}
+.app{
+  background: lighten( $background,10%);
+  border-radius: $app-border-radius;
+}
+.header{
+    &__logo{
+      &_img{
+        width: 100px;
+        height: 80px;
+        padding: 1em 1em;
+      }
+    }
+  }
+.navigation{
+  &-paw{
+    background: url("./assets/CatPaw.png");
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+}
+
