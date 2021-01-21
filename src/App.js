@@ -2,6 +2,7 @@
 import './App.scss';
 import './variablesSCSS/_variables.scss';
 import logo from './assets/StudioLogo.png'
+import PawRow from "./navigation/PawRow";
 function App() {
   return (
       <div className='overlay'>
@@ -14,9 +15,10 @@ function App() {
           </header>
           <main>
               <section className='navigation'>
-                  <div className='navigation-paw'>
-
-                  </div>
+                  <PawRow/>
+                  <PawRow/>
+                  <PawRow/>
+                  <PawRow/>
               </section>
           </main>
           <footer>

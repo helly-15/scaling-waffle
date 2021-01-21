@@ -1,0 +1,18 @@
+.navigation{
+  height: 400px;
+  padding-left: 30px;
+  padding-top: 30px;
+  display: grid;
+  &-paw{
+    background: url("./../assets/CatPaw.png");
+    width: 100px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    //margin: 0 auto;
+    transform: rotate(0.15turn);
+    padding: 10px 10px;
+    margin: 10px 10px;
+    //background-repeat: round;
+  }
+}
