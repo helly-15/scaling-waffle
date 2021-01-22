@@ -1,18 +1,66 @@
 .navigation{
-  height: 400px;
   padding-left: 30px;
   padding-top: 30px;
   display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 1em;
+  width: fit-content;
+  block-size: fit-content;
   &-paw{
-    background: url("./../assets/CatPaw.png");
-    width: 100px;
-    height: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    //margin: 0 auto;
-    transform: rotate(0.15turn);
-    padding: 10px 10px;
-    margin: 10px 10px;
-    //background-repeat: round;
+    //display: flex;
+    //flex-wrap: wrap;
+    //width: fit-content;
+    list-style: none;
+    &__img{
+      transform: rotate(0.15turn);
+      width: 83%;
+      height: 88%;
+     // margin:0 auto;
+    }
+    &__description{
+      //width: fit-content;
+      //margin-bottom: -100px;
+    }
+    //background: url("./../assets/CatPaw.png");
+    //width: 100px;
+    //height: 120px;
+    //background-size: contain;
+    //background-repeat: no-repeat;
+    //transform: rotate(0.15turn);
+    //background-position: center;
   }
+}
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+
+.first{
+  grid-column:1/2;
+  grid-row: 4/5;
+}
+.second{
+  grid-column:2/3;
+  grid-row: 2/3;
+
+}
+.third{
+  grid-column:3/4;
+  grid-row: 3/4;
+}
+.fourth{
+  grid-column:4/5;
+  grid-row: 1/2;
+}
+.fifth{
+  grid-column:6/7;
+  grid-row: 2/3;
+}
+.sixth{
+  grid-column:3/4;
+  grid-row: 1/2;
 }
