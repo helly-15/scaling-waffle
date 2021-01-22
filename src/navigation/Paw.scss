@@ -12,6 +12,7 @@
     //flex-wrap: wrap;
     //width: fit-content;
     list-style: none;
+    position: relative;
     &__img{
       transform: rotate(0.15turn);
       width: 83%;
@@ -21,6 +22,11 @@
     &__description{
       //width: fit-content;
       //margin-bottom: -100px;
+    }
+    &__text{
+      position: absolute;
+      top: -181px;
+      left: -134px;
     }
     //background: url("./../assets/CatPaw.png");
     //width: 100px;
