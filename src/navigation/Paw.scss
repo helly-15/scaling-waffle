@@ -9,16 +9,19 @@
   //grid-gap: 1em;
   width: fit-content;
   block-size: fit-content;
+  max-height: 60vh;
+
   &-paw{
     display: flex;
-    //flex-wrap: wrap;
+    text-transform: uppercase;
     flex-direction: column;
     //width: fit-content;
     list-style: none;
     position: relative;
+    box-sizing: border-box;
     &__img{
 
-      width: 83%;
+      width: 70%;
       height: 88%;
      // margin:0 auto;
     }

@@ -17,6 +17,7 @@ $app-border-radius: 40px;
   display: flex;
   justify-content: space-around;
   //align-content: center;
+  max-height: 60vh;
     &__logo{
       &_img{
         width: 100px;
