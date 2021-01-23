@@ -2,71 +2,63 @@
   padding-left: 30px;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(4, auto);
-  grid-gap: 1em;
+  //grid-gap: 1em;
   width: fit-content;
   block-size: fit-content;
   &-paw{
-    //display: flex;
+    display: flex;
     //flex-wrap: wrap;
+    flex-direction: column;
     //width: fit-content;
     list-style: none;
     position: relative;
     &__img{
-      transform: rotate(0.15turn);
+
       width: 83%;
       height: 88%;
      // margin:0 auto;
     }
-    &__description{
-      //width: fit-content;
-      //margin-bottom: -100px;
-    }
     &__text{
+      //transform: rotate(0.15turn);
       position: absolute;
-      top: -181px;
-      left: -134px;
+      top:30%;
+      left:30%;
     }
-    //background: url("./../assets/CatPaw.png");
-    //width: 100px;
-    //height: 120px;
-    //background-size: contain;
-    //background-repeat: no-repeat;
-    //transform: rotate(0.15turn);
-    //background-position: center;
-  }
-}
-path {
-  fill: transparent;
-}
 
-text {
-  fill: #FF9800;
+
+  }
 }
 
 .first{
   grid-column:1/2;
   grid-row: 4/5;
+  transform: rotate(0.09turn);
 }
 .second{
   grid-column:2/3;
   grid-row: 2/3;
+  transform: rotate(0.1turn);
 
 }
 .third{
   grid-column:3/4;
   grid-row: 3/4;
+  transform: rotate(0.2turn);
 }
 .fourth{
   grid-column:4/5;
   grid-row: 1/2;
+  transform: rotate(0.1turn);
 }
 .fifth{
-  grid-column:6/7;
+  grid-column:5/6;
   grid-row: 2/3;
+  transform: rotate(0.2turn);
 }
 .sixth{
   grid-column:3/4;
   grid-row: 1/2;
+  transform: rotate(0.1turn);
 }
