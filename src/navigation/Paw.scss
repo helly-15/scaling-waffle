@@ -19,8 +19,12 @@
     list-style: none;
     position: relative;
     box-sizing: border-box;
+    animation: pawAppear;
+    opacity: 0;
+    animation-timing-function:linear;
     &__img{
-
+      //animation: pawAppear 20s;
+      //animation-timing-function:linear;
       width: 70%;
       height: 88%;
      // margin:0 auto;
@@ -43,31 +47,38 @@
   grid-column:1/2;
   grid-row: 4/5;
   transform: rotate(0.09turn);
-
+  animation-delay: 0.6s;
 }
 .second{
   grid-column:2/3;
   grid-row: 2/3;
   transform: rotate(0.1turn);
-
+  animation-delay: 1.6s;
 }
 .third{
   grid-column:3/4;
   grid-row: 3/4;
   transform: rotate(0.2turn);
+  animation-delay: 2.6s;
 }
 .fourth{
   grid-column:4/5;
   grid-row: 1/2;
   transform: rotate(0.1turn);
+  animation-delay: 3.6s;
 }
 .fifth{
   grid-column:5/6;
   grid-row: 2/3;
   transform: rotate(0.2turn);
+  animation-delay: 4.6s;
 }
 .sixth{
   grid-column:3/4;
   grid-row: 1/2;
   transform: rotate(0.1turn);
+}
+@keyframes pawAppear {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
