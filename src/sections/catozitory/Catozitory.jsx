@@ -16,6 +16,9 @@ function Catozitory(props){
                 <div className='catository-tank__fish_three'>
 
                 </div>
+                <div className='catository-tank__fish_four'>
+
+                </div>
             </div>
 
         </section>
