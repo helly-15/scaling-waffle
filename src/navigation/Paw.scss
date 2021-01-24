@@ -47,36 +47,31 @@
   grid-column:1/2;
   grid-row: 4/5;
   transform: rotate(0.09turn);
-  animation-delay: 0.6s;
+  animation-delay: 0.3s;
 }
 .second{
   grid-column:2/3;
   grid-row: 2/3;
   transform: rotate(0.1turn);
-  animation-delay: 1.6s;
+  animation-delay: 1.0s;
 }
 .third{
   grid-column:3/4;
   grid-row: 3/4;
   transform: rotate(0.2turn);
-  animation-delay: 2.6s;
+  animation-delay: 1.7s;
 }
 .fourth{
   grid-column:4/5;
   grid-row: 1/2;
   transform: rotate(0.1turn);
-  animation-delay: 3.6s;
+  animation-delay: 2.4s;
 }
 .fifth{
   grid-column:5/6;
   grid-row: 2/3;
   transform: rotate(0.2turn);
-  animation-delay: 4.6s;
-}
-.sixth{
-  grid-column:3/4;
-  grid-row: 1/2;
-  transform: rotate(0.1turn);
+  animation-delay: 3.1s;
 }
 @keyframes pawAppear {
   from { opacity: 0; }

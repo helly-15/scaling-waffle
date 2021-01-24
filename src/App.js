@@ -32,7 +32,7 @@ function App() {
           </footer>
         </div>
           <main>
-              <div className='hiding-cat' >
+              <div className='hiding-cat' onAnimationEnd={(e)=>{e.target.style.bottom = '-60px'}}>
                   <img src = {hidingCat} alt = 'image of a cat head' className='hiding-cat__img' />
               </div>
               <Catozitory/>
