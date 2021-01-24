@@ -1,0 +1,36 @@
+@import '../../variablesSCSS/variables';
+
+.catository{
+  margin-top: 2%;
+
+  border-radius: $app-border-radius;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  min-height: max-content;
+
+  background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+  background-size: 110px 200px;
+  background-repeat: repeat-x;
+  &-tank{
+
+    &__fish{
+      background: url('../../assets/LootFish.png');
+      width: 128px;
+      height: 86px;
+      transform: scaleX(-1);
+      &_one{
+        @extend .catository-tank__fish;
+        margin-left: 20%;
+      }
+      &_two{
+        @extend .catository-tank__fish;
+        margin-left: 60%;
+      }
+      &_three{
+        @extend .catository-tank__fish;
+      }
+    }
+  }
+
+}

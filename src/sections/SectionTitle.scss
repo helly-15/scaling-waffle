@@ -1,10 +1,19 @@
+@import "../variablesSCSS/variables";
 path {
   fill: transparent;
 }
 text {
-  fill: #FF9800;
+  fill: $text;
   font-size: 100px;
   font-weight: bold;
   font-family: 'Londrina Solid', cursive;
   letter-spacing: 5px;
+}
+.header-title{
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: underline;
 }

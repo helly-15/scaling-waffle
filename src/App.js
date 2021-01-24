@@ -6,6 +6,7 @@ import Paw from "./navigation/Paw";
 import React from "react";
 import hidingCat from './assets/CatAvatar512.png'
 import SectionTitle from "./sections/SectionTitle";
+import Catozitory from "./sections/catozitory/Catozitory";
 function App() {
     const MAIN_NAV_ITEMS=['Catository', 'Projects', 'Cat Master', 'Catstogram','testqqqqqqq'];
     const MAIN_NAV_CLASSNAMES =['first', 'second', 'third', 'fourth', 'fifth']
@@ -17,10 +18,11 @@ function App() {
       <div className='overlay'>
         <div className="app">
           <header className="header">
-              <picture className='header__logo'>
-                  <source srcSet={logo}/>
-                  <img className='header__logo_img' src={logo} alt="company Logo"/>
-              </picture>
+              {/*<picture className='header__logo'>*/}
+              {/*    <source srcSet={logo}/>*/}
+              {/*    <img className='header__logo_img' src={logo} alt="company Logo"/>*/}
+              {/*</picture>*/}
+              <SectionTitle title ={'Basil cat webstudio'} className ={'header-title'} viewBox ={"0 0 3200 320"} x ={"50"}/>
               <ul className='navigation'>
                   {navigation}
               </ul>
@@ -33,9 +35,7 @@ function App() {
               <div className='hiding-cat' >
                   <img src = {hidingCat} alt = 'image of a cat head' className='hiding-cat__img' />
               </div>
-              <section className='catository'>
-                  <SectionTitle title ={'Catository'}/>
-              </section>
+              <Catozitory/>
 
           </main>
       </div>
