@@ -7,23 +7,31 @@ function Catozitory(props){
         <section className='catository'>
             <SectionTitle title = {'Projects'} viewBox ={"0 0 1440 320"} x ={"600"}/>
             <div className='catository-tank'>
-
-                <div className='catository-tank__fish_one'>
-                    <a href ='https://datagrid-virtualization-localstorage.netlify.app/' className='projects-text'>
+                <a href ='https://datagrid-virtualization-localstorage.netlify.app/' className='catository-tank__link' target='_blank' rel="noreferrer">
+                    <span className='catository-tank__link_text_one' >
                         React+Redux
-                    </a>
-                </div>
-                <div className='catository-tank__fish_two'>
-                    <a href ='https://musing-cray-b5e1fc.netlify.app' className='projects-text'>
+                    </span>
+                    <div className='catository-tank__fish_one'></div>
+                </a>
+                <a href ='https://musing-cray-b5e1fc.netlify.app' className='projects-text__link' target='_blank' rel="noreferrer">
+                    <span className='catository-tank__link_text_two' >
                         Group project+Git
-                    </a>
-                </div>
-                <div className='catository-tank__fish_three'>
+                    </span>
+                    <div className='catository-tank__fish_two'></div>
+                </a>
+                <a href ='https://kytinstudio.netlify.app' className='projects-text' target='_blank' rel="noreferrer">
+                    <span className='catository-tank__link_text_three' >
+                        Mobile games site
+                    </span>
+                    <div className='catository-tank__fish_three'></div>
+                </a>
 
-                </div>
-                <div className='catository-tank__fish_four'>
-
-                </div>
+                <a href ='https://kytinwebstudio.netlify.app' className='projects-text' target='_blank' rel="noreferrer">
+                    <span className='catository-tank__link_text_four' >
+                        SCSS+HTML
+                    </span>
+                <div className='catository-tank__fish_four'></div>
+                </a>
             </div>
 
         </section>
