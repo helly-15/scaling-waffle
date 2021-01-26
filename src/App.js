@@ -8,8 +8,9 @@ import hidingCat from './assets/CatAvatar512.png'
 import SectionTitle from "./sections/SectionTitle";
 import Projects from "./sections/projects/Projects";
 import Catository from "./sections/catository/Catository";
+import Master from "./sections/aboutMe/Master";
 function App() {
-    const MAIN_NAV_ITEMS=['Catository', 'Projects', 'Cat Master', 'Catstogram','testqqqqqqq'];
+    const MAIN_NAV_ITEMS=['Catository', 'Projects', 'Master', 'Catstogram','testqqqqqqq'];
     const MAIN_NAV_CLASSNAMES =['first', 'second', 'third', 'fourth', 'fifth']
     const navigation =[];
     for (let i = 0;i < MAIN_NAV_ITEMS.length; i++) {
@@ -34,6 +35,7 @@ function App() {
               </div>
               <Projects/>
               <Catository/>
+              <Master/>
           </main>
       </div>
   );
