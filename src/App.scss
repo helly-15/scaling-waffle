@@ -45,6 +45,7 @@ body{
   z-index: 10;
   animation: catAppear 3s;
   animation-delay: 3.2s;
+  cursor: pointer;
   &__img{
     width: 150px;
   }
