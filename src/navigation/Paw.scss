@@ -6,31 +6,24 @@
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(4, auto);
-  //grid-gap: 1em;
   width: fit-content;
   block-size: fit-content;
-  //max-height: 60vh;
-
   &-paw{
     display: flex;
     text-transform: uppercase;
     flex-direction: column;
-    //width: fit-content;
     list-style: none;
     position: relative;
     box-sizing: border-box;
     animation: pawAppear;
     opacity: 0;
     animation-timing-function:linear;
+    cursor: pointer;
     &__img{
-      //animation: pawAppear 20s;
-      //animation-timing-function:linear;
       width: 70%;
       height: 88%;
-     // margin:0 auto;
     }
     &__text{
-      //transform: rotate(0.15turn);
       position: absolute;
       left: 23%;
       bottom: -5%;
@@ -38,8 +31,6 @@
       font-size: 1.5em;
       color: darken($text,5%);
     }
-
-
   }
 }
 

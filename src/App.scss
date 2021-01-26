@@ -1,5 +1,11 @@
 @import './variablesSCSS/variables';
-
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Londrina Solid', cursive;
+  scroll-behavior: smooth;
+}
 .overlay{
   background: darken(#ffde22, 10%);
   box-sizing: border-box;
@@ -7,7 +13,6 @@
   min-height: 100vh;
 }
 .app{
-
   background:
           radial-gradient(darkgreen 15%, transparent 16%) 0 0,
           radial-gradient(green 15%, transparent 16%) 8px 8px,

@@ -1,7 +1,7 @@
 @import '../../variablesSCSS/variables';
 @import "../../animations/swim";
 @import "../../animations/swimText";
-.catository{
+.projects{
   margin-top: 2%;
 
   border-radius: $app-border-radius;
@@ -17,24 +17,26 @@
     margin-top: -50px;
     padding-bottom: 15px;
     &__link{
+      text-decoration: none;
+      font-size: 1.2em;
       &_text{
-        //animation-iteration-count: infinite;
         animation: swimText 20s infinite;
         animation-timing-function:linear;
+
         &_one{
-          @extend .catository-tank__link_text;
+          @extend .projects-tank__link_text;
           animation-delay: 0.9s;
         }
         &_two{
-          @extend .catository-tank__link_text;
+          @extend .projects-tank__link_text;
         }
         &_three{
-          @extend .catository-tank__link_text;
+          @extend .projects-tank__link_text;
           animation-delay: 0.6s;
 
         }
         &_four{
-          @extend .catository-tank__link_text;
+          @extend .projects-tank__link_text;
           animation-delay: 1.6s;
         }
       }
@@ -47,19 +49,19 @@
       animation: swim 20s infinite;
       animation-timing-function:linear;
       &_one{
-        @extend .catository-tank__fish;
+        @extend .projects-tank__fish;
         animation-delay: 0.9s;
       }
       &_two{
-        @extend .catository-tank__fish;
+        @extend .projects-tank__fish;
       }
       &_three{
-        @extend .catository-tank__fish;
+        @extend .projects-tank__fish;
         animation-delay: 0.6s;
 
       }
       &_four{
-        @extend .catository-tank__fish;
+        @extend .projects-tank__fish;
         animation-delay: 1.6s;
       }
     }

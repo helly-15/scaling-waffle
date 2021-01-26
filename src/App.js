@@ -6,7 +6,7 @@ import Paw from "./navigation/Paw";
 import React from "react";
 import hidingCat from './assets/CatAvatar512.png'
 import SectionTitle from "./sections/SectionTitle";
-import Catozitory from "./sections/catozitory/Catozitory";
+import Projects from "./sections/catozitory/Projects";
 function App() {
     const MAIN_NAV_ITEMS=['Catository', 'Projects', 'Cat Master', 'Catstogram','testqqqqqqq'];
     const MAIN_NAV_CLASSNAMES =['first', 'second', 'third', 'fourth', 'fifth']
@@ -32,10 +32,10 @@ function App() {
           </footer>
         </div>
           <main>
-              <div className='hiding-cat' onAnimationEnd={(e)=>{e.target.style.bottom = '-60px'}}>
+              <div className='hiding-cat' onAnimationEnd={(e)=>{e.target.style.bottom = '-60px'}} onClick={()=>{document.getElementById('Projects').scrollIntoView()}}>
                   <img src = {hidingCat} alt = 'image of a cat head' className='hiding-cat__img' />
               </div>
-              <Catozitory/>
+              <Projects/>
 
           </main>
       </div>
